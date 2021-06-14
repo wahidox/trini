@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>commander</title>
+        <link rel="stylesheet" type="text/css" href="info.css">
+        <script src="page.js"></script>
+    </head>
+    
+    <body>
+        <div class="wrapper">
+            <h2>Confirmation</h2>
+            
+            <div id="error_message"></div>
+            
+            <form id="myform" onsubmit="return validation()">
+                
+                <div class="input_field">
+                <input type="text" placeholder="Nom" id="Nom">
+                 </div>
+                
+                
+                  <div class="input_field">              
+                <input type="text" placeholder="Prenom" id="Prenom">
+                </div>
+                
+                
+                <div class="input_field">
+                <input type="text"placeholder="Adresse" id="Adresse">
+               </div>
+                
+                
+               <div class="input_field"> 
+                <input type="tel" placeholder="numero telephone" id="phone">
+                </div>
+                
+                
+                <div class="input_field">
+                <input type="int" placeholder=" quantite" id="quantite">
+                </div>
+                
+                
+                 <div class="input_field">
+                <p> La taille :</p>
+                <label for="la taille"></label>
+                <select placeholder="la taille" id="la taille">
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+                </select> <br>
+                </div>
+                
+                <div class="btn">
+                <input type="submit" value="Achter maintenant">
+                </div>
+            </form>
+            
+        </div>
+    
+    
+    
+    
+    </body>
+</html>
